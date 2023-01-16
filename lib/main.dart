@@ -16,9 +16,14 @@ class _MyApp extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Flutter - Intermediates Course')),
+      appBar: AppBar(
+        title: const Text('Flutter - Intermediates Course'),
+        backgroundColor: Colors.pinkAccent,
+      ),
       body: Center(
-        child: Column(children: []),
+        child: Column(children: const [
+          Text('Questo è il corso Flutter - Intermediate!! :D')
+        ]),
       ),
     );
   }
